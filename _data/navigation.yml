@@ -1,0 +1,14 @@
+- name: Home 
+  link: / 
+- name: Format
+  link: /Format.html
+- name: Schedule
+  link: /Program.html
+- name: Registration / Participants
+  link: /Registration.html
+- name: Accommodation
+  link: /Accommodation.html
+- name: Organizing committee
+  link: /Organizers.html
+- name: Previous Fairs 
+  link: /PreviousFairs.html
