@@ -143,3 +143,43 @@ nav a {
   font-size: 20px;
   padding-left: 20px;
 }
+
+
+.hotel-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 1175px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.hotel-table thead tr {
+    background-color: #0097A9;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.hotel-table th,
+.program-table td {
+    padding: 12px 15px;
+}
+
+.hotel-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.hotel-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.hotel-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.hotel-table tbody tr.header-row {
+    font-weight: bold;
+    color: #0097A9;
+}
+
