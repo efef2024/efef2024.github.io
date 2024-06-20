@@ -183,3 +183,35 @@ nav a {
     color: #0097A9;
 }
 
+.speaker-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 1175px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.speaker-table thead tr {
+    background-color: #0097A9;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.speaker-table th,
+.program-table td {
+    padding: 12px 15px;
+}
+
+.speaker-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.speaker-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.speaker-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
